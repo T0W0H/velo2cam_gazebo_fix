@@ -34,11 +34,11 @@
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
   
-  <bumblebee_xb3 parent="base_footprint" name="$(arg cam_name)" baseline="$(arg baseline)" hfov="$(arg hfov)" hz="$(arg hz)" noise="$(arg noise)">
+  <xacro:bumblebee_xb3 parent="base_footprint" name="$(arg cam_name)" baseline="$(arg baseline)" hfov="$(arg hfov)" hz="$(arg hz)" noise="$(arg noise)">
     <origin xyz="$(arg xyz)" rpy="$(arg rpy)"/>
     <resolution>
           <width>1280</width>
           <height>960</height>
     </resolution>
-  </bumblebee_xb3>
+  </xacro:bumblebee_xb3>
 </robot>

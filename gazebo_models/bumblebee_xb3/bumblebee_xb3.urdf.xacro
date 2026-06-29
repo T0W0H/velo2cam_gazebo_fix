@@ -27,9 +27,9 @@
         </geometry>
       </visual>
     </link>
-    <stereo_sensor name="${name}" baseline="${baseline}" hfov="${hfov}" hz="${hz}" noise="${noise}">
+    <xacro:stereo_sensor name="${name}" baseline="${baseline}" hfov="${hfov}" hz="${hz}" noise="${noise}">
       <xacro:insert_block name="resolution" />
-    </stereo_sensor> 
+    </xacro:stereo_sensor> 
     <gazebo reference="${name}_link">
       <static>true</static>
       <turnGravityOff>false</turnGravityOff>

@@ -26,9 +26,9 @@
         </geometry>
       </visual>
     </link>
-    <monocular_sensor name="${name}" hfov="${hfov}" hz="${hz}" noise="${noise}">
+    <xacro:monocular_sensor name="${name}" hfov="${hfov}" hz="${hz}" noise="${noise}">
       <xacro:insert_block name="resolution" />
-    </monocular_sensor> 
+    </xacro:monocular_sensor> 
     <gazebo reference="${name}_link">
       <static>true</static>
       <turnGravityOff>false</turnGravityOff>

@@ -33,11 +33,11 @@
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
   
-  <blackflys parent="base_footprint" name="$(arg cam_name)" hfov="$(arg hfov)" hz="$(arg hz)" noise="$(arg noise)">
+  <xacro:blackflys parent="base_footprint" name="$(arg cam_name)" hfov="$(arg hfov)" hz="$(arg hz)" noise="$(arg noise)">
     <origin xyz="$(arg xyz)" rpy="$(arg rpy)"/>
     <resolution>
           <width>2048</width>
           <height>1536</height>
     </resolution>
-  </blackflys>
+  </xacro:blackflys>
 </robot>

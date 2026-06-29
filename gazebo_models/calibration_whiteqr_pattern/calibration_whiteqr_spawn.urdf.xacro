@@ -29,7 +29,7 @@
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
   
-  <calibration_whiteqr parent="base_footprint" name="calibration_target" >
+  <xacro:calibration_whiteqr parent="base_footprint" name="calibration_target" >
     <origin xyz="$(arg xyz)" rpy="$(arg rpy)"/>
-  </calibration_whiteqr>
+  </xacro:calibration_whiteqr>
 </robot>

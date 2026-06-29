@@ -29,6 +29,7 @@
   <run_depend>sensor_msgs</run_depend>
 
   <export>
+  <gazebo_ros plugin_path="${prefix}/../../lib" />
   </export>
 
 </package>

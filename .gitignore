@@ -20,4 +20,4 @@ srv_gen/
 *.pyc
 
 *.cpp.autosave.*
-
+.qwen/

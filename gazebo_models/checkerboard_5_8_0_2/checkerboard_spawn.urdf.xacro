@@ -30,7 +30,7 @@
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
   
-  <checkerboard_6_8_0_2 parent="base_footprint" name="$(arg name)">
+  <xacro:checkerboard_6_8_0_2 parent="base_footprint" name="$(arg name)">
     <origin xyz="$(arg xyz)" rpy="$(arg rpy)"/>
-  </checkerboard_6_8_0_2>
+  </xacro:checkerboard_6_8_0_2>
 </robot>
