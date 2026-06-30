@@ -6,7 +6,7 @@ Repository including Gazebo models, plugins and worlds to test algorithms for ex
 IEEE Transactions on Intelligent Transportation Systems, 2022  
 **\[[Paper](https://ieeexplore.ieee.org/abstract/document/9733276)\] \[[Preprint](https://arxiv.org/abs/2101.04431)\]**
 
-![gazebo screenshot](screenshots/velo2cam_calibration_setup.png)
+![gazebo screenshot](../screenshots/velo2cam_calibration_setup.png)
 
 ## Gazebo models
 This repository includes several sensors and calibration target models to evaluate the performance of extrinsic calibration of lidar-camera pair in the Gazebo Simulator. The models need to be moved to ~/.gazebo/models/ if you want access them from Gazebo.
