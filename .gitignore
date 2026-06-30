@@ -21,3 +21,4 @@ srv_gen/
 
 *.cpp.autosave.*
 .qwen/
+.vscode/
