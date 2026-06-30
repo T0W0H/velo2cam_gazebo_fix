@@ -1,4 +1,5 @@
 # velo2cam_gazebo快速开始与理解
+这个仓库修复了原项目[velo2cam_gazebo](https://github.com/beltransen/velo2cam_gazebo/tree/master)在Noetic下的兼容问题,并记录学习中的一些Q&A.
 
 这个项目的**入口**就是它所有的 `.launch` 文件，核心都集中在：
 
